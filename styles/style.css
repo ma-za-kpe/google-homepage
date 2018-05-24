@@ -1,0 +1,61 @@
+html {
+  font-size: 20px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  background-color: #ffffff;
+}
+
+header ul{
+  margin-left: 150px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+li a img{
+  max-width: 70%;
+  height: 30px;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 0 20px 20px 20px;
+  border-top: 0px;
+  border-bottom: 0px;
+}
+
+.icon-img{
+  display: block;
+  margin-top: 100px;
+  margin-left: 350px;
+}
+
+.form{
+  margin-top: -50px;
+}
+
+.text-area{
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+.text-area a img{
+  margin-left: 10px;
+ width: 50px;
+}
