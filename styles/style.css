@@ -1,31 +1,40 @@
-html {
-  font-size: 20px; /* px means 'pixels': the base font size is now 10 pixels high  */
-  background-color: #ffffff;
+/*fake google css*/
+
+*{
+  margin: 0;
+  padding: 0;
 }
 
-.navigation{
-  float: right;
+body{
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  min-height:100%;
+  min-width:100%;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#container{
+
+  width:580;
+  margin: 0 auto;
+  text-align: center;
+
 }
 
-li {
-    float: left;
+h1#logo{
+  margin: 0 auto;
+  width: 272px;
+  height: 92px;
+  background: url("images/googlelogo.png");
+  background-position: left center;
+  background-repeat: no-repeat;
+  display: inline-block
+  background-size: 100%;
+  text-indent: -9999px;
 }
 
-a {
-    display: block;
-    padding: 8px;
-    text-decoration: none;
-    color: #000000;
-    font-size: 15px;
-}
-
-li a img{
-  max-width: 20px;
-  height: 20px;
+input[type="search"]{
+  padding: 10px;
+  width: 570px;
+  margin: 0px;
+  height: 40px;
 }
